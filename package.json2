@@ -1,0 +1,16 @@
+{
+  "name": "bot-panel-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "parcel": "^2.9.3",
+    "@monaco-editor/react": "^5.0.1",
+    "react-icons": "^4.9.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --dist-dir dist"
+  }
+}
