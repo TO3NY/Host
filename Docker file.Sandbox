@@ -1,0 +1,5 @@
+# optional: a simple Node 20 sandbox image
+FROM node:20-slim
+WORKDIR /bot
+# don't COPY anything; we'll bind-mount the bot folder at runtime
+CMD ["node", "index.js"]
