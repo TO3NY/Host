@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+html,body,#root{height:100%;margin:0;font-family:Inter,system-ui,Arial}
+.app{display:flex;height:100vh}
+.sidebar{width:340px;border-right:1px solid #e6e6e6;padding:14px;display:flex;flex-direction:column}
+.head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.bot-list{overflow:auto;flex:1}
+.bot-item{padding:8px;border:1px solid #f0f0f0;margin-bottom:8px;border-radius:6px;cursor:pointer}
+.bot-item.running{border-color:#a3e635;background:#f7fff3}
+.controls{display:flex;gap:8px;margin-top:8px}
+.main{flex:1;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:12px;border-bottom:1px solid #eee}
+.content{display:flex;flex:1}
+.file-tree{width:300px;border-right:1px solid #eee;padding:12px;overflow:auto}
+.editor-area{flex:1;display:flex;flex-direction:column}
+.toolbar{display:flex;align-items:center;gap:8px;padding:8px;border-bottom:1px solid #eee}
+.console{height:220px;background:#0a0a0a;color:#e6e6e6;padding:8px;overflow:auto;font-family:monospace}
+.file-entry{padding:6px;border-bottom:1px dashed #f0f0f0;cursor:pointer}
+.file-entry:hover{background:#f9f9f9}
+textarea{width:100%;height:200px}
+.small{font-size:12px;color:#666}
